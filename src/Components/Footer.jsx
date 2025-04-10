@@ -8,12 +8,14 @@ export default function Footer() {
     return (
         <div className='w-full bg-[#0f172a] p-4'>
             <div className='max-w-[1240px]  mx-auto md:grid grid-cols-4 p-5 '>
-                <div className='col-span-2] p-4'>
+                <div className='col-span-2 p-4'>
                     <h1 className='text-sky-400 font-bold mb-3'>EduBoost</h1>
-                    <p className='text-white mb-5 text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit aperiam maiores exercitationem quibusdam velit enim beatae accusamus alias quos sint, nobis delectus natus ipsam culpa soluta dolores veritatis reiciendis.</p>
+                    <p className='text-white mb-5 text-justify'>
+                        EduBoost is your gateway to interactive and personalized learning. We empower students with resources that make education accessible, engaging, and effective. From real-time insights to expert support, EduBoost is committed to helping learners achieve their goals through modern tech-driven solutions.
+                    </p>
                     <div className='flex gap-16 items-center w-[300px] '>
                         <FaFacebookF className='text-[blue] bg-white' />
-                        <BsInstagram className='text-white  ' />
+                        <BsInstagram className='text-white' />
                         <AiOutlineTwitter className='bg-white' />
                         <FaGithub className='bg-white' />
                     </div>
@@ -27,7 +29,6 @@ export default function Footer() {
                             <li><a href="">Commerce</a></li>
                             <li><a href="">Insights</a></li>
                         </ul>
-
                     </ul>
                 </div>
                 <div className='col-span-1 p-5'>
@@ -47,11 +48,8 @@ export default function Footer() {
                         <li><a href="">Jobs</a></li>
                         <li><a href="">Press</a></li>
                         <li><a href="">Careers</a></li>
-
                     </ul>
                 </div>
-
-
             </div>
         </div>
     )
